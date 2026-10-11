@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Акустична варта</title>
+    <link rel="stylesheet" href="scss/main.css">
+</head>
+<body>
+
+    <header>
+        <h1>Акустична варта</h1>
+        <p>Професійний моніторинг шумового забруднення міських територій</p>
+        <nav>
+            <ul>
+                <li><a href="#about">Про компанію</a></li>
+                <li><a href="#services">Напрямки роботи</a></li>
+                <li><a href="#order">Замовити</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="company-description">
+            <h2>Хто ми?</h2>
+            <p>Ми встановлюємо тимчасові акустичні датчики, проводимо вимірювання рівня шуму та формуємо детальні звіти.</p>
+            <div class="sensor-icon">📡</div> 
+        </section>
+
+        <section id="monitoring">
+            <h2>Поточний моніторинг</h2>
+            <p>Об'єкт: ЖК "Тиша". Статус: <span>Активний</span></p>
+            <p>Середній рівень: 55 дБ | Період: 24 години | Кількість точок: 4</p>
+        </section>
+
+        <section id="services">
+            <h2>Напрямки роботи</h2>
+            <article class="card">
+                <h3>Житлові комплекси</h3>
+                <p>Аналіз шуму від доріг та інфраструктури.</p>
+            </article>
+            <article class="card">
+                <h3>Офісні центри</h3>
+                <p>Оцінка акустичного комфорту для працівників.</p>
+            </article>
+            <article class="card">
+                <h3>Масові заходи</h3>
+                <p>Контроль звукового тиску на фестивалях.</p>
+            </article>
+        </section>
+
+        <aside class="warning" id="warning-box">
+            <div class="status-badge">!</div> 
+            <h3>Увага!</h3>
+            <p>Зафіксовано перевищення норми шуму на ділянці №4 (будівництво).</p>
+        </aside>
+
+        <section id="latest">
+            <h2>Останні вимірювання</h2>
+            <ul>
+                <li>10.10.2026 | Пр-т Миру | 75 дБ | Високий</li>
+                <li>09.10.2026 | Парк Центральний | 45 дБ | Норма</li>
+            </ul>
+        </section>
+
+        <section id="order">
+            <h2>Замовити дослідження</h2>
+            <form action="#">
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required> 
+
+                <label for="object">Тип об'єкта:</label>
+                <input type="text" id="object">
+
+                <label for="period">Період:</label>
+                <input type="text" id="period">
+
+                <label for="desc">Опис проблеми:</label>
+                <textarea id="desc"></textarea>
+
+                <button class="btn" type="submit">Відправити заявку</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Акустична варта © 2026</p>
+        <p>Контакти: info@acoustic-guard.ua | +380441234567</p>
+    </footer>
+
+</body>
+</html>
